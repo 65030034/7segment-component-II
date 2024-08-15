@@ -74,7 +74,7 @@ void SevenSegment::DisplayNumber(int number)
             DisplayNum9();
             break;
         default:
-            DisplayBlank(); // If the number is out of range, clear the display
+            DisplayBlank(); 
             break;
     }
 }

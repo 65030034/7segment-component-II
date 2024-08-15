@@ -22,7 +22,7 @@ public:
 
     void HardwareTest();
     void DisplayBlank();
-    void DisplayNumber(int number); // Updated to take an int parameter
+    void DisplayNumber(int number); 
     void DisplayNum0();
     void DisplayNum1();
     void DisplayNum2();
@@ -35,5 +35,5 @@ public:
     void DisplayNum9();
 };
 
-#endif // SEVENSEGMENT_H
+#endif 
 
