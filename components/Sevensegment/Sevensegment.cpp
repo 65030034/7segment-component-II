@@ -73,9 +73,6 @@ void SevenSegment::DisplayNumber(int number)
         case 9:
             DisplayNum9();
             break;
-        default:
-            DisplayBlank(); 
-            break;
     }
 }
 
@@ -153,7 +150,6 @@ void SevenSegment::DisplayNum5()
 
 void SevenSegment::DisplayNum6()
 {
-    common.ON();
     seg_a.ON();
     seg_b.OFF();
     seg_c.ON();
