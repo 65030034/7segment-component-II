@@ -1,0 +1,7 @@
+dependencies:
+  LED:
+    git: http://github.com/koson/LED_Test.git
+    path: components/LED
+  Sevensegment:
+    git: https://github.com/koson/sevenseg_component.git
+    path: components/SevenSegment

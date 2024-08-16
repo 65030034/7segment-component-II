@@ -1,0 +1,23 @@
+dependencies:
+  LED:
+    component_hash: d95a72b0035fb8cedaa973b98c4efab8d4dc51a097fac5976f35438ca96eecd1
+    source:
+      git: http://github.com/koson/LED_Test.git
+      path: components/LED
+      type: git
+    version: 838c47debbba86b33b24f9ab9ec71d2c00a4bf48
+  Sevensegment:
+    component_hash: 90bb5b4831270614382c475599986cd1a88d63db97ccc9706c4127400926549f
+    source:
+      git: https://github.com/koson/sevenseg_component.git
+      path: components/SevenSegment
+      type: git
+    version: 57dca1419ad633cefb7d1f9ef2871cc222f5c3ed
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+manifest_hash: 14e6b47f348743db50d7e2a76bdf5289fbf2a1d29ed3ea26eaeb3425c661fa9a
+target: esp32
+version: 1.0.0

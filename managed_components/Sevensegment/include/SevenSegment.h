@@ -1,10 +1,6 @@
-   #ifndef SEVENSEGMENT_H
-#define SEVENSEGMENT_H
-
 #include "LED.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-
 class SevenSegment
 {
     int common_pin;
@@ -16,17 +12,15 @@ class SevenSegment
     LED seg_f = LED(21);
     LED seg_g = LED(22);
     LED common = LED(common_pin);
-
 public:
     SevenSegment(int pin)
     {
         common_pin = pin;
         common = LED(common_pin);
-    }
-
+    } 
     void HardwareTest();
     void DisplayBlank();
-    void DisplayNumber(int number); 
+    void DisplayNumber(int number);
     void DisplayNum0();
     void DisplayNum1();
     void DisplayNum2();
@@ -40,6 +34,3 @@ public:
     void DisplayOff();
     void DisplayOn();
 };
-
-#endif 
-
